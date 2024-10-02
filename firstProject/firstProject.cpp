@@ -28,7 +28,6 @@ int main()
     std::cout << " *********\n";
 
 
-
     // Task d
     std::cout << "Hello... \t\t\t\t there!";
 
