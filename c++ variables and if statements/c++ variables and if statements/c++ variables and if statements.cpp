@@ -1,6 +1,3 @@
-// c++ variables and if statements.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
 using namespace std;
 
@@ -17,6 +14,9 @@ int main()
         num1 += 1;
         cout << num1 << "\n";
     }
+
+    five_factorial = 5 * 4 * 3 * 2 * 1;
+    cout << five_factorial;
 
 }
 
