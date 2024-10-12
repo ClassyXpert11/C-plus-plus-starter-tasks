@@ -53,10 +53,38 @@ int main()
     int numerator = a + c;
     int denominator = b + d;
 
-    cout << numerator << "/" << denominator << endl;
-    
+    cout << numerator << "/" << denominator << "\n\n";
 
-    
+    cout << "3h)\n";
+    int power_of_2 = 73 * 73;
+
+    cout << "73^2 = " << power_of_2<< "\n\n";
+
+    cout << "3i)\n";
+    int power_of_4 = 73 * 73*73*73;
+
+    cout << "73^4 = " << power_of_4 << "\n\n";
+
+    cout << "3j)\n";
+    int interpolation_a = 10;
+    int interpolation_b = 20;
+    double interpolation_t = 0.35;
+
+    double interpolation = interpolation_a +(interpolation_b - interpolation_a)*interpolation_t;
+
+    cout << "p = " << interpolation << "\n\n";
+
+    cout << "3k)\n";
+    double percentage43 = 18*0.43;
+
+    cout << "43% of 18 = " << percentage43 << "\n\n";
+
+    cout << "3l)\n";
+    double degrees = 65.0;
+    double radians = degrees * (3.142 / 180.0);
+
+    cout << "65 degrees = { "<<radians<<" } radians" << "\n\n";
+
 
 }
 
