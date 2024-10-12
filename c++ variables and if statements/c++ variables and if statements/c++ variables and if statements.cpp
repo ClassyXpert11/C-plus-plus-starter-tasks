@@ -108,6 +108,18 @@ void part2() {
     }
     cout << "Player score : "<< playerScore << "\n\n";
 
+    cout << "5)\n";
+    float rectangleWidth = 4.2;
+    float rectangleHeight = 10.6;
+    float area = rectangleWidth* rectangleHeight;
+
+    cout << "width = " << rectangleWidth << "\n";
+    cout << "height = " << rectangleHeight << "\n";
+    cout << "area = " << area << "\n";
+
+
+
+
 
 
 
