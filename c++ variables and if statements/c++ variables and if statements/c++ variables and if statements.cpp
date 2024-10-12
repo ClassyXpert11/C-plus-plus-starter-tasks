@@ -86,12 +86,26 @@ void part1() {
 }
 
 void part2() {
-    cout << "hello world";
+    float playerSpeed = 5.0f;
+    bool isPlayerDead = false;
+    int weaponIndex = 3;
+
+    cout << "1)\n";
+    playerSpeed = 2.1f;
+    cout << playerSpeed << "\n\n";
+
+
+    /*cout << "2)\n";
+    float playerSpeed = 2.1f;
+    cout << playerSpeed<< "\n\n";*/
+
+
+
 }
 
 int main()
 {
     //part1();
-    //part2();
+    part2();
 }
 
