@@ -1,14 +1,13 @@
 #include <iostream>
 using namespace std;
 
-int main()
-{
-    // using c++ as a artithmati calculator
+void part1() {
+    // using c++ as a artithmatic calculator
     cout << "1)\n";
     cout << 5 + 5 << "\n\n";
 
     cout << "2)\n";
-    cout << 355 /113 << "\n\n";
+    cout << 355 / 113 << "\n\n";
 
     cout << "3a)\n";
     cout << 503 * 92 << "\n\n";
@@ -58,10 +57,10 @@ int main()
     cout << "3h)\n";
     int power_of_2 = 73 * 73;
 
-    cout << "73^2 = " << power_of_2<< "\n\n";
+    cout << "73^2 = " << power_of_2 << "\n\n";
 
     cout << "3i)\n";
-    int power_of_4 = 73 * 73*73*73;
+    int power_of_4 = 73 * 73 * 73 * 73;
 
     cout << "73^4 = " << power_of_4 << "\n\n";
 
@@ -70,12 +69,12 @@ int main()
     int interpolation_b = 20;
     double interpolation_t = 0.35;
 
-    double interpolation = interpolation_a +(interpolation_b - interpolation_a)*interpolation_t;
+    double interpolation = interpolation_a + (interpolation_b - interpolation_a) * interpolation_t;
 
     cout << "p = " << interpolation << "\n\n";
 
     cout << "3k)\n";
-    double percentage43 = 18*0.43;
+    double percentage43 = 18 * 0.43;
 
     cout << "43% of 18 = " << percentage43 << "\n\n";
 
@@ -83,8 +82,16 @@ int main()
     double degrees = 65.0;
     double radians = degrees * (3.142 / 180.0);
 
-    cout << "65 degrees = { "<<radians<<" } radians" << "\n\n";
+    cout << "65 degrees = { " << radians << " } radians" << "\n\n";
+}
 
+void part2() {
+    cout << "hello world";
+}
 
+int main()
+{
+    //part1();
+    //part2();
 }
 
