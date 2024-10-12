@@ -90,14 +90,29 @@ void part2() {
     bool isPlayerDead = false;
     int weaponIndex = 3;
 
-    cout << "1)\n";
+    cout << "1) & 2)\n";
     playerSpeed = 2.1f;
     cout << playerSpeed << "\n\n";
 
+    cout << "3)\n";
+    playerSpeed += 10;
+    cout << playerSpeed<<"\n\n";
 
-    /*cout << "2)\n";
-    float playerSpeed = 2.1f;
-    cout << playerSpeed<< "\n\n";*/
+    cout << "4)\n";
+    double playerScore = 0;
+    int counter = 0;
+
+    while (counter < 3) {
+        playerScore += 10;
+        counter += 1;
+    }
+    cout << "Player score : "<< playerScore << "\n\n";
+
+
+
+
+
+
 
 
 
