@@ -41,5 +41,7 @@ int main()
 
     cout << result_fraction << "\n\n";
 
+    // this is a comment
+
 }
 
