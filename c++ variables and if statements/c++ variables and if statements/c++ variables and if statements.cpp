@@ -130,9 +130,18 @@ void part2() {
 
 }
 
+void part3() {
+    int age = 0;
+    cout << "Please enter your age : ";
+    cin >> age;
+    cout << "You are " << age << " years old\n\n";
+
+}
+
 int main()
 {
     //part1();
-    part2();
+    //part2();
+    part3();
 }
 
