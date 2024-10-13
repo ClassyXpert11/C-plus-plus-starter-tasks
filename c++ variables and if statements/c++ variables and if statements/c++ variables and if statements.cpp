@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <string>
 
 void part1() {
     // using c++ as a artithmatic calculator
@@ -131,10 +132,86 @@ void part2() {
 }
 
 void part3() {
+
+    cout << "1)\n";
     int age = 0;
-    cout << "Please enter your age : ";
+    cout << "Please enter your age: ";
     cin >> age;
-    cout << "You are " << age << " years old\n\n";
+    cout << "You are " << age << " years old!\n\n";
+    
+    cout << "2)\n";
+    int playerLevel;
+    cout << "Please enter your player level: ";
+    cin >> playerLevel;
+    cout << "You are level" << playerLevel << "!\n\n";
+
+    cout << "3 & 4)\n";
+    string playerName;
+    cout << "Please enter your name: ";
+    cin >> playerName;
+    cout << "You're name is " << playerName << "! Nice to meet you!\n\n";
+
+
+    cout << "5)\n";
+    double rectangleW;
+    double rectangleH;
+
+    cout << "Please enter a rectangle width: ";
+    cin >> rectangleW;
+    cout << "Please enter a rectangle height: ";
+    cin >> rectangleH;
+    double rectangleA = rectangleW*rectangleH;
+    cout << "\nThe area of your shape is: " << rectangleA <<"\n\n";
+
+
+    cout << "6)\n";
+    double squaredNum;
+    cout << "Please enter a number to square: ";
+    cin >> squaredNum;
+    squaredNum = squaredNum * squaredNum;
+    cout << "Your squared number is: " << squaredNum << "\n\n";
+
+
+    cout << "7)\n";
+    double num1;
+    double num2;
+    double num3;
+    int option;
+
+    cout << "Please enter a number: ";
+    cin >> num1;
+    cout << "Please enter another number: ";
+    cin >> num2;
+    cout << "\n1 = Addition\n2 = Subtraction\n3 = Multiplycation\n4 = Division\nPlease select an option: ";
+    cin >> option;
+
+    if (option == 1){
+        num3 = num1 + num2;
+        cout << "Your answer is " << num3 << "\n\n";
+    }               
+    else if (option == 2) {
+        num3 = num1 - num2;
+        cout << "Your answer is " << num3 << "\n\n";
+    }               
+    else if (option == 3) {
+        num3 = num1 * num2;
+        cout << "Your answer is " << num3 << "\n\n";
+    }
+    else if (option == 4) {
+        num3 = num1 / num2;
+        cout << "Your answer is " << num3 << "\n\n";
+    }
+    else {
+        cout << "Please enter a valid number!";
+    }
+
+
+    cout << "8)\n";
+    double celcius;
+    cout << "Please enter your celcius: ";
+    cin >> celcius;
+    double farenheight = (celcius * 9 / 5) + 32;
+    cout << "Your Farenheight conversion is: " << farenheight << "\n\n";
 
 }
 
