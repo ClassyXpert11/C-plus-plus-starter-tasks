@@ -215,10 +215,24 @@ void part3() {
 
 }
 
+void part4() {
+
+    int Square(int num = 35); {
+        return num*num;
+        // This will be “35 * 35” if we call Square(35)
+    }
+
+
+
+
+
+}
+
 int main()
 {
     //part1();
     //part2();
     //part3();
+    //part4();
 }
 
